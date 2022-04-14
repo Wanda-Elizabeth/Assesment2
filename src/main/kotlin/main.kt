@@ -5,22 +5,19 @@ fun main(){
     var char=name("wandawai")
     println(char[1] .toString()+char[3]+ char[5]+char[7])
 
-
-
 }
 
 open class CurrentAccount(accountnumber:String,accountname:String,balance:Int){
-    constructor() : this()
 
 }
 fun Deposit(amount:Double) {
     var balance=1.0
-    balance=+amount
+    balance+=amount
     println(balance)
 }
 fun Withdraw(amount:Double) {
-    var balance=0.2
-    balance=-amount
+    var balance=0.1
+    balance-=amount
     println(balance)
 }
 fun Details(accountnumber:String,accountname:String,balance:Int){
@@ -34,6 +31,7 @@ fun withdrawal(withdrawal:Int){
 }
 
 
+//Q4
 fun name(name:String):String{
     return name
 
